@@ -13,7 +13,19 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        caplock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <16 15>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 11>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
