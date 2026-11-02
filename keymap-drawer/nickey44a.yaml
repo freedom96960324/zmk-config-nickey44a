@@ -13,7 +13,7 @@ layers:
   - O
   - {t: P, h: '!'}
   - BACKSPACE
-  - LCTRL
+  - LEFT SHIFT
   - A
   - S
   - D
@@ -25,7 +25,7 @@ layers:
   - L
   - {t: '-', h: '?'}
   - ENTER
-  - LSHFT
+  - LEFT CONTROL
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
